@@ -60,7 +60,7 @@ const SimpleCarousel = () => {
     return (
         <div className="relative w-full mx-auto bg-white shadow-lg overflow-hidden top-32">
             {/* Main carousel container */}
-            <div className="relative h-48 sm:h-64 md:h-80 lg:h-80 xl:h-[550px] overflow-hidden">
+            <div className="relative h-48 sm:h-72 md:h-80 lg:h-96 xl:h-[550px] overflow-hidden">
                 {/* Slides */}
                 <div
                     className="flex transition-transform duration-500 ease-in-out h-full"
